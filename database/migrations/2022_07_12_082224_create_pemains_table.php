@@ -15,7 +15,7 @@ class CreatePemainsTable extends Migration
     {
         Schema::create('pemains', function (Blueprint $table) {
             $table->id();
-            $table->string('nama', 50);
+            $table->string('nama_pemain', 50);
             $table->integer('umur');
             $table->integer('tinggi');
             $table->integer('berat');
